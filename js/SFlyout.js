@@ -1,13 +1,9 @@
 //////////////////////////////////////////////////////////////////////////
 // SFlyout.js                                                           //
 // Rogério Tomio Hirooka - 2007.02.20 19:22                             //
-// - Contém o código de apresentação dos relógios múltiplos.            //
-//////////////////////////////////////////////////////////////////////////
-
-//************************************************************************
-// função Init_Multiclock
-// - Retorna diversos formatos de horario e tempo, a partir do relógio
-//   atual do sistema, e realimenta a função ao final da execução.
+// Returns time in multiple formats
+// Borrowed from the excellent Sphere Timer Gadget.
+// No commercial use is intended. This is merely for educational purposes.
 //************************************************************************
 
 function Init_Multiclock() 
@@ -59,7 +55,7 @@ function Init_Multiclock()
 
     var hexadecimalValue = hex[hex1] + "_"+ hex[hex2] + hex[hex3] + "_" + hex[hex4];
 
-	// Dias da semana em inglês.
+	// Days of the week
     if (day==0)
         day="Sun";
     if (day==1)
