@@ -2,9 +2,9 @@ INPUT
 {
 	font-weight: bolder;
 	font-size: 14px;
-	color: dimgray;
+	color: white;
 	font-family: Consolas, 'Lucida Console';
-	background-color: transparent;
+	background-color: blue;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;
@@ -17,6 +17,6 @@ BODY
 {
 	width: 404px; 
 	height: 310px;
-    background-color: transparent; 
+    background-color: blue; 
 
 }
